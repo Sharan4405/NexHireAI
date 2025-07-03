@@ -44,10 +44,12 @@ export default function NexHireLanding() {
           transition={{ delay: 0.2 }}
           className="bg-gray-900 p-6 rounded-2xl shadow-xl"
         >
-          <h3 className="text-xl font-semibold text-blue-400 mb-2">AI Resume Matching</h3>
-          <p className="text-sm text-gray-400">
-            Upload your resume and let NexHireAI find jobs that truly fit your skills and goals.
-          </p>
+          <h3 className="text-xl font-semibold text-blue-400 mb-2">AI Job Role Finder</h3>
+<p className="text-sm text-gray-400">
+  Get tailored LinkedIn job role suggestions based on your resume or profile.
+</p>
+
+
         </motion.div>
 
         <motion.div
@@ -68,10 +70,11 @@ export default function NexHireLanding() {
           transition={{ delay: 0.6 }}
           className="bg-gray-900 p-6 rounded-2xl shadow-xl"
         >
-          <h3 className="text-xl font-semibold text-blue-400 mb-2">Auto Job Discovery</h3>
-          <p className="text-sm text-gray-400">
-            NexHireAI actively searches the web and shows you job listings that match your profile.
-          </p>
+          <h3 className="text-xl font-semibold text-blue-400 mb-2">Resume & LinkedIn Enhancer</h3>
+<p className="text-sm text-gray-400">
+  AI-powered improvements to make your profile recruiter-ready.
+</p>
+
         </motion.div>
       </section>
     </main>

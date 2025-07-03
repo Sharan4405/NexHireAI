@@ -4,25 +4,25 @@ import { FaEnvelopeOpenText, FaFileAlt, FaLinkedin } from "react-icons/fa";
 
 const features = [
   {
-    icon: <FaFileAlt size={40} className="text-blue-400" />,
-    title: "AI Resume → Job Match",
+    icon: <FaLinkedin size={40} className="text-blue-400" />,
+    title: "AI Job Role Finder",
     description:
-      "Stop guessing which jobs fit your profile. Upload your resume and let NexHireAI intelligently parse your skills, experience, and achievements to fetch real-time job listings that actually align — with fit scores and direct links.",
-    path: "/Agent/ResumeMatchAgent",
+      "Not sure which roles to apply for? Upload your resume or LinkedIn profile and let NexHireAI analyze your strengths, experiences, and skills. Our agent will suggest real-time, relevant job roles on LinkedIn — complete with smart matching logic and direct application links.",
+    path: "/Agent/JobRoleFinder",
   },
   {
     icon: <FaEnvelopeOpenText size={40} className="text-blue-400" />,
-    title: "Personalised Cold Emails",
+    title: "Personalized Cold Emails",
     description:
-      "Tired of sending generic emails? Our AI crafts cold emails tailored to your personality, experience, and the specific role — giving you a higher chance to connect and convert. Just answer a few prompts and get a ready-to-send professional message.",
+      "Struggling to get responses from recruiters? Let NexHireAI craft personalized, context-aware cold emails tailored to your profile and target roles. Just fill in a few prompts — our AI will generate high-converting outreach emails to help you stand out.",
     path: "/Agent/ColdEmailAgent",
   },
   {
-    icon: <FaLinkedin size={40} className="text-blue-400" />,
-    title: "AI LinkedIn → Job Match",
+    icon: <FaFileAlt size={40} className="text-blue-400" />,
+    title: "Resume & LinkedIn Enhancer",
     description:
-      "Leverage your LinkedIn like never before. Our agent scans your public LinkedIn data and matches you with opportunities that suit your career path — perfect if you haven’t finalized a resume yet or want a quick match on the go.",
-    path: "/Agent/LinkedinMatchAgent",
+      "Make your profile recruiter-ready. Our AI refines your resume and LinkedIn profile content, highlighting your achievements and skills the way hiring managers want to see them — all while aligning with the job roles you’re targeting.",
+    path: "/Agent/ResumeMatchAgent",
   },
 ];
 
@@ -61,6 +61,7 @@ export default function FeatureSelect() {
               transition={{ duration: 0.5, delay: 0.1 + idx * 0.10 }}
               whileHover={{
                 scale: 1.05,
+                
                 transition: { duration: 0.2, ease: "easeInOut" },
               }}
               whileTap={{ scale: 0.98 }}
