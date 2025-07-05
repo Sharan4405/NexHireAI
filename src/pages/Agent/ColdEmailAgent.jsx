@@ -44,7 +44,7 @@ export default function ColdEmailAgent() {
     payload.append("recipientEmail", formData.recipientEmail);
 
     try {
-      const response = await fetch("http://localhost:3000/generate-email", {
+      const response = await fetch("http://localhost:3000/cold-email/generate-email", {
         method: "POST",
         body: payload,
       });
